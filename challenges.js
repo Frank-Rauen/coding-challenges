@@ -59,13 +59,13 @@ function sayHello() {
   -----------------------------------------------------------------*/
   // Your solution for 02-addTwoNumbers here:
   
-  function addTwoNumbers(x,y) {
-    return x + y
-  };
-  
-  addTwoNumbers(5, 10);
-  addTwoNumbers(10, -2);
-  addTwoNumbers('Hello', 5);
+  function addTwoNumbers(a,b) {
+    if (typeof a === 'number' && typeof b === 'number') {
+      return a + b;
+    } else {
+      return NaN;
+    }
+  }
   
   
   
