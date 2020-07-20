@@ -88,7 +88,13 @@ function sayHello() {
   -----------------------------------------------------------------*/
   // Your solution for 03-sumNumbers here:
   
-  function sumNumbers
+  function sumNumbers(nums) {
+    let sum = 0;
+    for(let i = 0; i < nums.length; i++) {
+      sum += nums[i];
+    }
+    return sum;
+  }
   
   
   
