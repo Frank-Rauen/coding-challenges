@@ -201,7 +201,13 @@ function sayHello() {
   -----------------------------------------------------------------*/
   // Your solution for 07-reverseUpcaseString here:
   
-  
+  function reverseUpcaseString(str) {
+    let output = '';
+    for (let i = 0; i < str.length; i++) {
+      output = str.charAt(i).toUpperCase() + output;
+    }
+    return output;
+  }
   
   
   
