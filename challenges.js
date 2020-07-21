@@ -173,7 +173,16 @@ function sayHello() {
   -----------------------------------------------------------------*/
   // Your solution for 06-range here:
   
-  
+  function range(a,b) {
+    if (a > b) return 'First argument must be less than second';
+
+    let range = [];
+    for (let i = a; i < b; i++) {
+      range.push(i)
+    }
+    return range;
+  }
+
   
   
   
