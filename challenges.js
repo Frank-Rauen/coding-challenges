@@ -147,9 +147,9 @@ function sayHello() {
   -----------------------------------------------------------------*/
   // Your solution for 05-computeRemainder:
   
-  function computeRemainder(a,b) {
-    if (b === 0) return Infinity;
-    return a - (Math.floor(a/b) * b);
+  function computeRemainder(divisor, dividend) {
+    if (divisor == 0) return Infinity;
+    return dividend - (Math.floor(dividend/divisor) * divisor);
   }
   
   
