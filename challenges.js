@@ -147,7 +147,10 @@ function sayHello() {
   -----------------------------------------------------------------*/
   // Your solution for 05-computeRemainder:
   
-  
+  function computeRemainder(a,b) {
+    if (b === 0) return Infinity;
+    return a - (Math.floor(a/b) * b);
+  }
   
   
   
