@@ -228,7 +228,14 @@ function sayHello() {
   -----------------------------------------------------------------*/
   // Your solution for 08-removeEnds here:
   
-  
+  function removeEnds(str) {
+    if (str.length < 3) return '';
+    let result = '';
+    for(let i = 1; i < str.length - 1; i++) {
+      result += str.charAt(i);
+    }
+    return result;
+  }
   
   
   
