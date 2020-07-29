@@ -294,7 +294,13 @@ function sayHello() {
   formatWithPadding(1234, '*', 3); //=> "1234"
   -----------------------------------------------------------------*/
   // Your solution for 10-formatWithPadding here:
-  
+  function formatWithPadding(int, str, len) {
+    let result = int.toFixed(0);
+    while (result.length < len) {
+      result = char + result;
+    }
+    return result;
+  }
   
   
   
