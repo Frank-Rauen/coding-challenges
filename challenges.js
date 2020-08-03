@@ -391,6 +391,13 @@ function sayHello() {
   -----------------------------------------------------------------*/
   // Your solution for 13-mumble here:
   
+  function mumble(str) {
+    let result = '';
+    for(let i = 0; i < str.length; i++) {
+      result += ((i || '') && '-') + str.charAt(i).repeat(i + 1);
+    }
+    return result;
+  }
   
   
   
